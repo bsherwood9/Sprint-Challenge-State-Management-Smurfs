@@ -1,5 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+
+html {
+  height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: url("https://dyn1.heritagestatic.com/lf?set=path%5B1%2F9%2F1%2F9%2F4%2F19194794%5D%2Csizedata%5B850x600%5D&call=url%5Bfile%3Aproduct.chain%5D");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-family: "Luckiest Guy", cursive;
+  color: #62cdfd;
+  font-size: 48px;
+  text-shadow: #000 0px 0px 3px;
 }
