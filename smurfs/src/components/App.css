@@ -1,28 +1,77 @@
 .App {
-  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  width: 60%;
+  background: rgba(255, 255, 255, 0.8);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+label {
+  font-size: 20px;
+}
+input {
+  margin: 0 10px;
+}
+.form > button {
+  width: 200px;
+  margin: 20px;
+  transition-duration: 0.4s;
+  background-color: #62cdfd; /* Green */
   color: white;
+  font-size: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border: none;
 }
 
-.App-title {
-  font-size: 1.5em;
+button:hover {
+  transform: scale(1.1);
 }
 
-.App-intro {
-  font-size: large;
+.smurfList {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-between;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.card {
+  width: 31%;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card > button {
+  transition-duration: 0.4s;
+  background-color: #b53732;
+  color: white;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 3px;
+  margin: 5px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.error {
+  color: #b53732;
 }
